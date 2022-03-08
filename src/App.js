@@ -1,9 +1,11 @@
-import './App.css';
+import Header from './layout/header';
+
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Olá</h1>
+      <Header />
     </div>
   );
 }
