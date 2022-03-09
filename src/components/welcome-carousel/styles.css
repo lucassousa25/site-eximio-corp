@@ -1,12 +1,12 @@
 #home-slider {
   overflow: hidden;
   position: relative;
-  width: 100vw;
 }
 
 #home-slider .caption {
   position: absolute;
   top: 50%;
+  margin-top: -104px;
   left: 0;
   right: 0;
   text-align: center;
@@ -21,6 +21,7 @@
   color: #fff;
   font-size: 60px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .caption .btn-start {
@@ -43,7 +44,7 @@
   transition-property: opacity;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 2037px;
 }
 
 .carousel-fade .carousel-inner .item:after {
