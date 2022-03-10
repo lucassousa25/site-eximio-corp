@@ -1,3 +1,4 @@
+import AboutUs from './layout/about-us';
 import Header from './layout/header';
 import InfoServices from './layout/info-services';
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <InfoServices />
+      <AboutUs />
     </div>
   );
 }
