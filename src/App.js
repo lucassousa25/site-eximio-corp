@@ -1,6 +1,7 @@
 import AboutUs from './layout/about-us';
 import Header from './layout/header';
 import InfoServices from './layout/info-services';
+import Team from './layout/team';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <InfoServices />
       <AboutUs />
+      <Team />
     </div>
   );
 }
