@@ -6,39 +6,77 @@ import './styles.css';
 const Team = () => {
   return (
     <section id="team">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+    <div className="container">
+      <div className="row">
+        <div className="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
           <h2>Equipe</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
         </div>
       </div>
       
-        <div class="team-members">
-          <div id="team-carousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
+        <div className="team-members">
+          <div id="team-carousel" className="carousel slide" data-ride="carousel">
+            <div className="carousel-inner">
              
-              <div class="item active wow fadeIn">
-                <StaffMember />
-                <StaffMember />
-                <StaffMember />
-                <StaffMember />
+              <div className="item active wow fadeIn">
+                <StaffMember
+                  image="img/team/img-padrao.jpg"
+                  delay="300ms"
+                  name="Jhon Legend"
+                  cargo="CTO"
+                  description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+                />
+                <StaffMember
+                  image="img/team/girl-people.jpg"
+                  delay="400ms"
+                  name="Louis Katherine"
+                  cargo="Designer"
+                  description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+                />
+                <StaffMember
+                  image="img/team/img-padrao.jpg"
+                  delay="300ms"
+                  name="Jhon Legend"
+                  cargo="CTO"
+                  description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+                />
+                <StaffMember
+                  image="img/team/girl-people.jpg"
+                  delay="400ms"
+                  name="Louis Katherine"
+                  cargo="Designer"
+                  description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+                />
               </div>
-              <div class="item">
-                <StaffMember />
-                <StaffMember />
-                <StaffMember />
+              <div className="item">
+              <StaffMember
+                image="img/team/img-padrao.jpg"
+                delay="300ms"
+                name="Jhon Legend"
+                cargo="CTO"
+                description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+              />
+              <StaffMember
+                image="img/team/girl-people.jpg"
+                delay="400ms"
+                name="Louis Katherine"
+                cargo="Designer"
+                description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+              />
+              <StaffMember
+                image="img/team/img-padrao.jpg"
+                delay="300ms"
+                name="Jhon Legend"
+                cargo="CTO"
+                description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+              />
               </div>
 
-            </div>
-              
-            {/*<a class="team-left-control" href="#team-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-            <a class="team-right-control" href="#team-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>*/}
-              
+            </div>              
           </div>
         </div>
     </div>            
-  </section>
+    </section>
   )
 }
 

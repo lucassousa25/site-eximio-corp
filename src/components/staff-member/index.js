@@ -1,23 +1,23 @@
 import React from 'react';
 
-const StaffMember = () => {
+const StaffMember = ({image, name, cargo, description, fadeDaley}) => {
 
   return (
-    <div class="col-sm-3">
-      <div class="team-member wow" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <div class="member-image">
-          <img class="img-responsive img-rounded" src="img/team/img-padrao.jpg" alt="Staff Member" />
+    <div className="col-sm-3">
+      <div className="team-member wow" data-wow-duration="1000ms" data-wow-delay={fadeDaley}>
+        <div className="member-image">
+          <img className="img-responsive img-rounded" src={image} alt="Staff Member" style={{height: "300px", width: "300px"}} />
         </div>
-        <div class="member-info">
-          <h3>Yuri Corrêa</h3>
-          <h4>Presidente</h4>
-          <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+        <div className="member-info">
+          <h3>{name}</h3>
+          <h4>{cargo}</h4>
+          <p>{description}</p>
         </div>
-        <div class="social-icons">
+        <div className="social-icons">
           <ul>
-            <li><a class="facebook" href="/"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="twitter" href="/"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="linkedin" href="/"><i class="fa fa-linkedin"></i></a></li>
+            <li><a className="facebook" href="/"><i className="fa fa-facebook"></i></a></li>
+            <li><a className="twitter" href="/"><i className="fa fa-twitter"></i></a></li>
+            <li><a className="linkedin" href="/"><i className="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
