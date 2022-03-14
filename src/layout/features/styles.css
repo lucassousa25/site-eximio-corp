@@ -1,0 +1,19 @@
+#features {
+  text-align: center;
+  background-image: url(../../../public/img/features-bg.jpg);
+}
+
+#features i {
+  font-size: 48px;
+}
+
+#features h3 {
+  margin-top: 15px;
+  font-size: 30px;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+#features .slider-overlay {
+  opacity: 0.8;
+}
