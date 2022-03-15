@@ -1,0 +1,32 @@
+#twitter > div {
+  text-align: center;
+  position: relative;
+}
+
+#twitter-carousel {
+  position: relative;
+  z-index: 15;
+}
+
+.fa-twitter-square {
+  font-size: 40px;
+  color: #2ac6f7;
+}
+
+#twitter-carousel .item {
+  padding: 0;
+}
+
+#twitter-carousel .item a {
+  color: #fff;
+}
+
+blockquote {
+  border-left: none;
+}
+
+blockquote:before {
+  content: open-quote;
+  font-size: 60px;
+  padding-right: 40px;
+}
