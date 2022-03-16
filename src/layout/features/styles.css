@@ -1,6 +1,7 @@
 #features {
   text-align: center;
   background-image: url(../../../public/img/features-bg.jpg);
+  padding: 50px 0;
 }
 
 #features i {
