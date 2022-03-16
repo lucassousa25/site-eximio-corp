@@ -1,4 +1,5 @@
 import AboutUs from './layout/about-us';
+import Contact from './layout/contact';
 import Features from './layout/features';
 import Header from './layout/header';
 import InfoServices from './layout/info-services';
@@ -14,6 +15,7 @@ function App() {
       <Team />
       <Features />
       <TwitterComments />
+      <Contact />
     </div>
   );
 }
