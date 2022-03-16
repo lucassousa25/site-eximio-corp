@@ -4,7 +4,8 @@
 }
 
 #google-map {
-  height: 350px;
+  height: 220px;
+  border-radius: 10px;
 }
 
 #contact-us {
@@ -16,25 +17,8 @@
   padding-top: 95px;
 }
 
-.form-control {
-  background-color: transparent;
-  border-color: rgba(255,255,255,.1);
-  height: 50px;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-textarea.form-control {
-  min-height: 180px;
-  resize:none;
-}
-
-.form-group {
-  margin-bottom: 30px;
-}
-
 .contact-info {
-  padding-left:70px;
+  padding-left: 0;
   font-weight: 300;
 }
 
@@ -51,13 +35,4 @@ ul.address {
 
 .contact-info ul li a {
   color: #fff;
-}
-
-.btn-submit {
-  display: block;
-  padding: 12px;
-  width: 100%;
-  color: #fff;
-  border:0;
-  margin-top: 40px;
 }
