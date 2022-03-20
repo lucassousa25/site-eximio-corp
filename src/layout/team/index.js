@@ -18,58 +18,65 @@ const Team = () => {
           <div id="team-carousel" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
              
-              <div className="item active wow fadeIn">
+              <div className="item active">
                 <StaffMember
                   image="img/team/img-padrao.jpg"
-                  delay="300ms"
+                  fadeDaley="400ms"
                   name="Jhon Legend"
                   cargo="CTO"
                   description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
                 />
                 <StaffMember
                   image="img/team/girl-people.jpg"
-                  delay="400ms"
+                  fadeDaley="800ms"
                   name="Louis Katherine"
                   cargo="Designer"
                   description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
                 />
                 <StaffMember
                   image="img/team/img-padrao.jpg"
-                  delay="300ms"
+                  fadeDaley="1200ms"
                   name="Jhon Legend"
                   cargo="CTO"
                   description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
                 />
                 <StaffMember
                   image="img/team/girl-people.jpg"
-                  delay="400ms"
+                  fadeDaley="1600ms"
                   name="Louis Katherine"
                   cargo="Designer"
                   description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
                 />
               </div>
               <div className="item">
-              <StaffMember
-                image="img/team/img-padrao.jpg"
-                delay="300ms"
-                name="Jhon Legend"
-                cargo="CTO"
-                description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
-              />
-              <StaffMember
-                image="img/team/girl-people.jpg"
-                delay="400ms"
-                name="Louis Katherine"
-                cargo="Designer"
-                description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
-              />
-              <StaffMember
-                image="img/team/img-padrao.jpg"
-                delay="300ms"
-                name="Jhon Legend"
-                cargo="CTO"
-                description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
-              />
+                <StaffMember
+                  image="img/team/img-padrao.jpg"
+                  fadeDaley="400ms"
+                  name="Jhon Legend"
+                  cargo="CTO"
+                  description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+                />
+                <StaffMember
+                  image="img/team/girl-people.jpg"
+                  fadeDaley="800ms"
+                  name="Louis Katherine"
+                  cargo="Designer"
+                  description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+                />
+                <StaffMember
+                  image="img/team/img-padrao.jpg"
+                  fadeDaley="1200ms"
+                  name="Jhon Legend"
+                  cargo="CTO"
+                  description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+                />
+                <StaffMember
+                  image="img/team/girl-people.jpg"
+                  fadeDaley="1600ms"
+                  name="Louis Katherine"
+                  cargo="Designer"
+                  description="Consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+                />
               </div>
 
             </div>              

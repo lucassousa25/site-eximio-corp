@@ -4,7 +4,7 @@ const StaffMember = ({image, name, cargo, description, fadeDaley}) => {
 
   return (
     <div className="col-sm-3">
-      <div className="team-member wow" data-wow-duration="1000ms" data-wow-delay={fadeDaley}>
+      <div className="team-member wow fadeInUp" data-wow-duration={fadeDaley} data-wow-delay={fadeDaley}>
         <div className="member-image">
           <img className="img-responsive img-rounded" src={image} alt="Staff Member" style={{height: "300px", width: "300px"}} />
         </div>
