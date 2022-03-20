@@ -1,0 +1,14 @@
+.pin {
+  display: flex;
+  align-items: center;
+  width: 15vw;
+  color: #0E5F74;
+}
+
+.pin-icon {
+  font-size: 4rem;
+}
+
+.pin-text {
+  font-size: 10pt;
+}
