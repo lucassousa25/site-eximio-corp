@@ -1,9 +1,16 @@
 import React from 'react';
 import Form from '../../components/form';
+import Map from '../../components/map';
 
 import './styles.css';
 
 const Contact = () => {
+
+  const location = {
+    address: 'UEPA Campus XX, R. Pedro Porpino da Siva - São José, Castanhal.',
+    lat: -1.281167,
+    lng: -47.90925,
+  }
 
   return (
     <section id="contact">
@@ -21,7 +28,7 @@ const Contact = () => {
                 <Form />   
               </div>
               <div className="col-sm-6">
-              <div id="google-map" className="wow fadeIn" data-latitude="-1.281167" data-longitude="-47.909258" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
+                <Map location={location} zoomLevel={15} />
                 <div className="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                   <ul className="address">
