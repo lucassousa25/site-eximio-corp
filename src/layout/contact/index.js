@@ -7,9 +7,9 @@ import './styles.css';
 const Contact = () => {
 
   const location = {
-    address: 'UEPA Campus XX, R. Pedro Porpino da Siva - São José, Castanhal.',
-    lat: -1.281167,
-    lng: -47.90925,
+    address: 'UEPA Campus XX, Castanhal.',
+    lat: -1.280999,
+    lng: -47.909718,
   }
 
   return (
@@ -28,7 +28,7 @@ const Contact = () => {
                 <Form />   
               </div>
               <div className="col-sm-6">
-                <Map location={location} zoomLevel={15} />
+                <Map location={location} zoomLevel={17} />
                 <div className="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                   <ul className="address">

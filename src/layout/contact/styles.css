@@ -2,11 +2,6 @@
   padding: 0;
 }
 
-#google-map {
-  height: 220px;
-  border-radius: 10px;
-}
-
 #contact-us {
   background-image:url(../../../public/img/contact-bg.jpg);
   padding-bottom: 90px; 
