@@ -9,19 +9,19 @@ const WelcomeCarousel = () => {
         <div className="item active" style={{ backgroundImage: "url(img/slider/1.png)" }}>
           <div className="caption">
             <h1 className="animated fadeInLeftBig">Bem-Vindo a <span>Eximio</span></h1>
-            <p className="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
+            <p className="animated fadeInRightBig">Empresa Jr. - Tecnologia - Criatividade - Aplicação</p>
           </div>
         </div>
         <div className="item" style={{ backgroundImage: "url(img/slider/2.png)" }}>
           <div className="caption">
-            <h1 className="animated fadeInLeftBig">Say Hello to <span>Oxygen</span></h1>
-            <p className="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
+            <h1 className="animated fadeInLeftBig">Bem-Vindo a <span>Eximio</span></h1>
+            <p className="animated fadeInRightBig">Empresa Jr. - Tecnologia - Criatividade - Aplicação</p>
           </div>
         </div>
         <div className="item" style={{ backgroundImage: "url(img/slider/3.png)" }}>
           <div className="caption">
-            <h1 className="animated fadeInLeftBig">We are <span>Creative</span></h1>
-            <p className="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
+            <h1 className="animated fadeInLeftBig">Bem-Vindo a <span>Eximio</span></h1>
+            <p className="animated fadeInRightBig">Empresa Jr. - Tecnologia - Criatividade - Aplicação</p>
           </div>
         </div>
       </div>
