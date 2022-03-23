@@ -17,10 +17,12 @@ const TwitterComments = () => {
                 <div id="twitter-carousel" className="carousel slide" data-ride="carousel">
                   <div className="carousel-inner">
                     <div className="item active wow fadeIn" data-wow-duration="1500ms" data-wow-delay="300ms">
-                      <blockquote>Introducing Shortcode generator for Helix V2 based templates <a href="/"><span>#helixframework #joomla</span></a></blockquote>
+                      <blockquote>A Eximio Solutions alanvacou os processos e visibilidade da nossa empresa, graças a essa equipe empenhada e com espírito de inovação. <a href="/"><span>#EximioSolutions #EmpresaJr</span></a></blockquote>
+                      <p> - Gerente Supersivor da Empresa <span>Insigne Inc.</span> - </p>
                     </div>
                     <div className="item">
-                      <blockquote>Introducing Shortcode generator for Helix V2 based templates <a href="/"><span>#helixframework #joomla</span></a></blockquote>
+                    <blockquote>A Eximio Solutions alanvacou os processos e visibilidade da nossa empresa, graças a essa equipe empenhada e com espírito de inovação. <a href="/"><span>#EximioSolutions #EmpresaJr</span></a></blockquote>
+                      <p> - Gerente Supersivor da Empresa <span>Insigne Inc.</span> - </p>
                     </div>
                   </div>                        
                 </div>                    

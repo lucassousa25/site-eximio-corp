@@ -57,25 +57,26 @@ const Form = () => {
       <p className={notifyMessageClass}><i className={iconMessage}></i> <b>{notifyMessage ? notifyMessage : ""}</b></p>
     )
     }
+
     <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
       <div className="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div className="col-sm-6">
           <div className="form-group">
-            <input type="text" {...register("name", {required: true, maxLength: 45})} className="form-control" placeholder="Name" />
+            <input type="text" {...register("name", {required: true, maxLength: 45})} className="form-control" placeholder="Nome..." />
             <input type="hidden" name="contact_number" value={contactNumber} />
           </div>
         </div>
         <div className="col-sm-6">
           <div className="form-group">
-            <input type="email" {...register("email", {required: true})} className="form-control" placeholder="Email Address" />
+            <input type="email" {...register("email", {required: true})} className="form-control" placeholder="Endereço de E-mail..." />
           </div>
         </div>
       </div>
       <div className="form-group">
-        <input type="text" {...register("subject", {required: true, maxLength: 60})} className="form-control" placeholder="Subject" />
+        <input type="text" {...register("subject", {required: true, maxLength: 60})} className="form-control" placeholder="Assunto.." />
       </div>
       <div className="form-group">
-        <textarea {...register("message", {required: true, maxLength: 350})} id="message" className="form-control" rows="4" placeholder="Enter your message"></textarea>
+        <textarea {...register("message", {required: true, maxLength: 350})} id="message" className="form-control" rows="4" placeholder="Digite sua mensagem..."></textarea>
       </div>                        
       <div className="form-group">
         <input type="submit" value="Enviar" className="btn-submit" />
