@@ -4,7 +4,7 @@ import './styles.css';
 
 const NavBar = () => {
   return (
-    <>
+    
       <div className="main-nav">
       <div className="container">
         <div className="navbar-header">
@@ -29,7 +29,7 @@ const NavBar = () => {
         </div>
       </div>
     </div>
-    </>
+    
   )
 }
 

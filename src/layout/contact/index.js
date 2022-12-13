@@ -28,7 +28,7 @@ const Contact = () => {
                 <Form />   
               </div>
               <div className="col-sm-6">
-                {/*<Map location={location} zoomLevel={17} />*/}
+                <Map location={location} zoomLevel={17} />
                 <div className="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                   <ul className="address">
